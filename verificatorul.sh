@@ -2,14 +2,15 @@
 
 #------------------------------------------------------------------------------
 # 
-#   CHECKER Tema 2 POO, 2020-2021
+#   CHECKER eStore Platform, 2020-2021 and beyond
 #
-#   Authors: Barac Ilie-Constantin (imi pare rau), Craioveanu Sergiu-Ionut (el m-a pus) 
+#   Authors: Barac Ilie-Constantin (imi pare rau), 
+#			 Craioveanu Sergiu-Ionut (el m-a pus) 
 #
 #------------------------------------------------------------------------------
 
 # Exec name
-EXEC_NAME=TemaPOO
+EXEC_NAME=eStore
 
 # Teste Normale
 FILE_TEST_DATE_1="data/test%d/date.in"
@@ -22,7 +23,7 @@ NUM_TESTS=12
 # x, y, z are test indexes
 # Each test with an index less or equal to x gets a points.
 # Each test with an index less or equal to y gets b points.
-POINTS_TEST="4=15,6=5,9=15,11=10,12=15"
+POINTS_TEST="3=20,4=10,10=10,11=20,12=30"
 
 # Total score
 SCORE_TESTS=0
@@ -105,7 +106,7 @@ function show_total {
 	echo "[NOTA FINALA]"
 	
 	echo
-	printf "NOTA FINALA ..................................... %3sp/150p\n" $(($SCORE_TESTS))
+	printf "NOTA FINALA ..................................... %3sp/180p\n" $(($SCORE_TESTS))
 	echo	
 }
 
